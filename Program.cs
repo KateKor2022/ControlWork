@@ -10,6 +10,16 @@
     return array;
 }
 
+void ShowArray(string[] array)
+{
+    {
+        for (int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + " "); 
+    }
+    Console.WriteLine();
+    Console.WriteLine();
+}
+
 Console.WriteLine("Пожалуйста, введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 
