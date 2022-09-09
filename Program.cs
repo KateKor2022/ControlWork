@@ -42,3 +42,11 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 string[] array = InputArray(size);
 Console.WriteLine();
+
+Console.Write("Исходный массив: ");
+ShowArray(array);
+
+Console.Write($"Элементы массива длиной до {max} символов: ");
+
+string[] newArray = StringLenght(array, max);
+ShowArray(newArray);
