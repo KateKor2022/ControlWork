@@ -2,4 +2,5 @@
 1. Создать репозиторий на гитхаб
 https://github.com/KateKor2022/ControlWork.git
 
-
+2. Нарисовать блок-схему задачи
+[Блок-Схема](./Diagram.jpeg)
